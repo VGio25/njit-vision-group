@@ -1,0 +1,21 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Space between images */
+}
+
+.gallery img {
+    width: calc(33.333% - 10px); /* Three images per row with some margin */
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
