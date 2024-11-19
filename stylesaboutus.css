@@ -1,5 +1,9 @@
 .about-section {
     margin-bottom: 20px;
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Rounded corners for images */
+    display: block; /* Ensure no extra space below images */
 }
 
 .about-section img {
@@ -7,3 +11,11 @@
     height: auto;
     border-radius: 5px;
 }
+.about-section {
+    margin-bottom: 20px; /* Space below each about section */
+    opacity: 0.9; /* Slightly fade the image on hover */
+    transition: opacity 0.3s; /* Smooth transition for hover effect */
+}
+
+
+

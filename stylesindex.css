@@ -1,71 +1,69 @@
 body {
-    font-family: Arial, sans-serif; /* Use a clean, sans-serif font */
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
-    line-height: 1.6; /* Improve readability with line height */
-    background-color: #f4f4f4; /* Light background color */
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    line-height: 1.6;
+    background-color: #f4f4f4;
 }
 
 /* Header styles */
 header {
-    background: #35424a; /* Dark background for header */
-    color: #ffffff; /* White text color */
-    padding: 10px 0; /* Vertical padding */
-    text-align: center; /* Center align text */
+    background: #35424a; 
+    color: #ffffff;
+    padding: 10px 0; 
+    text-align: center;
 }
 
 /* Navigation styles */
 nav ul {
-    list-style: none; /* Remove bullet points */
-    padding: 0; /* Remove padding */
-    margin: 0; /* Remove margin */
+    list-style: none;
+    padding: 0; 
+    margin: 0;
 }
 
 nav ul li {
-    display: inline; /* Display list items inline */
-    margin: 0 10px; /* Space between items */
+    display: inline; 
+    margin: 0 10px; 
 }
 
 nav ul li a {
-    color: #ffffff; /* White text color for links */
-    text-decoration: none; /* Remove underline */
-    font-weight: bold; /* Bold text for links */
-    transition: text-decoration 0.3s; /* Smooth transition for hover effect */
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold; 
+    transition: text-decoration 0.3s; 
 }
 
 nav ul li a:hover {
-    text-decoration: underline; /* Underline on hover */
-}
+    text-decoration: underline; 
 
 /* Main content styles */
 main {
-    padding: 20px; /* Padding around main content */
+    padding: 20px; 
 }
 
 /* Section styles */
 section {
-    background: #ffffff; /* White background for sections */
-    margin: 10px 0; /* Space between sections */
-    padding: 20px; /* Padding inside sections */
-    border-radius: 5px; /* Rounded corners */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    background: #ffffff; 
+    margin: 10px 0; 
+    padding: 20px; 
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 /* Footer styles */
 footer {
-    text-align: center; /* Center align footer text */
-    padding: 10px 0; /* Vertical padding */
-    background: #35424a; /* Dark background for footer */
-    color: #ffffff; /* White text color */
-    position: relative; /* Position relative for layout */
-    bottom: 0; /* Align to bottom */
-    width: 100%; /* Full width */
-}
+    text-align: center; 
+    padding: 10px 0; 
+    background: #35424a;
+    color: #ffffff;
+    position: relative; 
+    bottom: 0; 
+    width: 100%;
 
 /* Responsive styles */
 @media (max-width: 600px) {
     nav ul li {
-        display: block; /* Stack navigation items on small screens */
-        margin: 5px 0; /* Space between stacked items */
+        display: block; 
+        margin: 5px 0; 
     }
-}
+}}}
