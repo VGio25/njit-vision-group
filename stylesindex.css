@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif; /* Use a clean, sans-serif font */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    line-height: 1.6; /* Improve readability with line height */
+    background-color: #f4f4f4; /* Light background color */
+}
+
+/* Header styles */
+header {
+    background: #35424a; /* Dark background for header */
+    color: #ffffff; /* White text color */
+    padding: 10px 0; /* Vertical padding */
+    text-align: center; /* Center align text */
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+}
+
+nav ul li {
+    display: inline; /* Display list items inline */
+    margin: 0 10px; /* Space between items */
+}
+
+nav ul li a {
+    color: #ffffff; /* White text color for links */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold text for links */
+    transition: text-decoration 0.3s; /* Smooth transition for hover effect */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Main content styles */
+main {
+    padding: 20px; /* Padding around main content */
+}
+
+/* Section styles */
+section {
+    background: #ffffff; /* White background for sections */
+    margin: 10px 0; /* Space between sections */
+    padding: 20px; /* Padding inside sections */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Footer styles */
+footer {
+    text-align: center; /* Center align footer text */
+    padding: 10px 0; /* Vertical padding */
+    background: #35424a; /* Dark background for footer */
+    color: #ffffff; /* White text color */
+    position: relative; /* Position relative for layout */
+    bottom: 0; /* Align to bottom */
+    width: 100%; /* Full width */
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block; /* Stack navigation items on small screens */
+        margin: 5px 0; /* Space between stacked items */
+    }
+}

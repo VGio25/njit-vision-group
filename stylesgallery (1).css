@@ -1,0 +1,35 @@
+.gallery {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    gap: 10px; /* Space between images */
+}
+
+.gallery img {
+    width: calc(33.333% - 10px); /* Three images per row with margin */
+    border-radius: 5px; /* Rounded corners for images */
+    object-fit: cover; /* Ensure images cover the area without distortion */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center; /* Center align footer text */
+    padding: 10px 0; /* Vertical padding */
+    background: #35424a; /* Dark background for footer */
+    color: #ffffff; /* White text color */
+    position: relative; /* Position relative for layout */
+    bottom: 0; /* Align to bottom */
+    width: 100%; /* Full width */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .gallery img {
+        width: calc(50% - 10px); /* Two images per row on medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery img {
+        width: 100%; /* One image per row on small screens */
+    }
+}
